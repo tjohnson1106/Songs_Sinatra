@@ -16,5 +16,7 @@ get '/contact' do
 
  erb :contact
 
+ set :public_folder, 'assets'
+
 end
 
